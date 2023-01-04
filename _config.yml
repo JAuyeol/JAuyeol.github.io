@@ -10,17 +10,17 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                  : "minimal-mistakes-jekyll"
+# theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "KR"
-title                    : "Site Title"
+locale                   : "ko-KR"
+title                    : "JAuyeol"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Jgygy"
-description              : "문제 풀기"
+subtitle                 : "문제풀기"
+name                     : "JAuyeol"
+description              : "JAueyol 블로그"
 url                      : "https://jauyeol.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -90,10 +90,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "JAuyeol"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "하루에 백준 한문제"
+  location         : "South Korea"
   email            :
   links:
     - label: "Email"
@@ -187,7 +187,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul
 
 
 # Plugins (previously gems:)
